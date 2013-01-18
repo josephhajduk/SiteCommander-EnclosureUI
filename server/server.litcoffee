@@ -57,3 +57,17 @@ Here we handle incoming messages,  currently we simply log the message to the co
 	  socket.on "message", (msg) ->
 	    console.log "Message Received: #{msg}"
 	    socket.broadcast.emit("message",msg)
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
